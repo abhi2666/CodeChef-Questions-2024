@@ -1,0 +1,1 @@
+ad-hoc problems are those problems which does not fall under any specific pattern of questions and are totally different..require some logic to solve and only solve a subset of test cases. (not all test cases are considered by ad-hoc coding solutions)

@@ -24,15 +24,14 @@ int main()
         sort(mat.begin(), mat.end(), greater<int>());
         // now pick optimally
         int cyborg = 0, geno = 0;
-        // now alternately pick elements for both
+        // now alternatievly pick elements for both
         for (int i = 0; i < mat.size(); i++)
         {
-            if (i % 2 == 0) // Cyborg's turn
+            if (i % 2 == 0)
                 cyborg += mat[i];
-            else // Geno's turn
+            else
                 geno += mat[i];
         }
-        
         if (cyborg > geno)
             cout << "Cyborg" << endl;
         else if (geno > cyborg)
